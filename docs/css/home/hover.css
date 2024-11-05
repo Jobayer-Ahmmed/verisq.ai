@@ -1,0 +1,26 @@
+/* hover style*/
+.hover-bg:hover {
+    background-color: #ecedff;
+    color: inherit;
+}
+
+/* On hover, make it slightly bold */
+.hover-bg:hover .hover-title {
+    text-shadow: .5px .5px .5px #777991dc;
+    word-spacing: 1.5px;
+}
+.hover-bg:hover .center-label{
+    background-color: #ecedff;
+}
+.translate-hover:hover {
+    transform: scaleY(0.96);
+}
+.app-launcher-card-hover:hover{
+    background-color: #ecedff;
+}
+.app-launcher-card-hover:hover img{
+    scale: 1.5;
+}
+.app-launcher-card-hover:hover .card-title{
+    font-weight: 800;
+}
